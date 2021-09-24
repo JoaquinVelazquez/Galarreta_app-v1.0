@@ -1,0 +1,187 @@
+h1, h2, h3, h4, h5, h6{
+    text-transform: capitalize;
+}
+
+.rectangulo_rojo {
+    width: 30px;
+    height: 15px;
+    background: #ec3323;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #d4d4d4;
+}
+
+.rectangulo_naranja {
+    width: 30px;
+    height: 15px;
+    background: #f7c143;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #d4d4d4;
+}
+
+.rectangulo_amarillo {
+    width: 30px;
+    height: 15px;
+    background: #fffd55;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #d4d4d4;
+}
+
+.rectangulo_verde_claro {
+    width: 30px;
+    height: 15px;
+    background: #a0cd63;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #d4d4d4;
+}
+
+.rectangulo_verde_oscuro {
+    width: 30px;
+    height: 15px;
+    background: #4eac5b;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #d4d4d4;
+}
+
+.selected {
+    width: 35px;
+    height: 17.5px;
+    border: 1px solid #000;
+}
+
+.disabled {
+    opacity: 50%;
+}
+
+.fa-check-circle {
+    color: green !important;
+    margin: 0 0 0 10px;
+    font-size: 25px;
+}
+
+.fa-minus-circle {
+    color: gray !important;
+    margin: 0 0 0 10px;
+    font-size: 25px;
+}
+
+.fa-times-circle {
+    color: red !important;
+    margin: 0 0 0 10px;
+    font-size: 25px;
+}
+
+.mensajes_img {
+    width: 60%;
+    margin-right: 10px;
+
+}
+
+.contenedor_imagen_mensaje {
+    position: relative;
+}
+
+.contenedor_imagen_despacho {
+    position: relative;
+}
+
+.mensajes_icon {
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+}
+
+.despacho_icon {
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+}
+
+.metricas_texto {
+    text-align: start;
+}
+
+.metricas_texto h4 {
+margin: 0 0 10px 0;
+}
+
+.metricas_texto p {
+margin: 0;
+}
+
+.icon-flipped {
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+}
+
+.mshop {
+    color: #dc354b!important;
+    font-size: 20px;
+}
+
+.meli {
+    color: #ffe600!important;
+    font-size: 20px;
+}
+
+.rendimiento {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.porcentajes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.logos{
+    width: 45px;
+}
+
+.banderas {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.thumb-ranking {
+    height: 50px;
+    width: 50px;
+}
+
+.fondo-index {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 42%, rgba(219,219,219,1) 100%);
+}
+
+.bordes {
+    border: 1px solid #001d9a;
+}
+
+.contenedor-opcion{
+    margin-top: 50px;
+}
+
+.boton-submit {
+    margin-left: 10px;
+}
+
+.logo-inicio {
+    width: 80px;
+}
+
+.text-bold {
+    font-weight: bold;
+}
